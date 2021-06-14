@@ -1,0 +1,12 @@
+{% set items = menu %}
+
+<nav class="nav">
+  <ul class="list menu">
+    {% for item in items %}
+    <li class="menu-item">
+      <a class="link menu-link" href="{{ item.link }}">{{ item.title }}</a>
+    </li>
+
+    {% endfor %}
+  </ul>
+</nav>

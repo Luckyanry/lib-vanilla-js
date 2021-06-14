@@ -1,0 +1,55 @@
+{
+  "page": {
+    "lang": "en",
+    "title": "Vanilla JS Library",
+    "description": "",
+    "canonical": "",
+    "og_site_name": "",
+    "og_title": "",
+    "og_description": "",
+    "og_image": "./images/favicon/mstile-150x150.png",
+    "og_image_type": "image/png",
+    "og_image_width": "150",
+    "og_image_height": "150"
+  },
+  "header": {
+    "title": "",
+    "description": "",
+    "start": ""
+  },
+  "menu": [
+    {
+      "title": "",
+      "link": ""
+    },
+    {
+      "title": "",
+      "link": ""
+    }
+  ],
+  "socials": [
+    {
+      "title": "",
+      "link": "",
+      "icon": ""
+    },
+    {
+      "title": "",
+      "link": "",
+      "icon": ""
+    }
+  ],
+  "result": {
+    "title": "",
+    "items": [
+      {
+        "id": "",
+        "description": ""
+      },
+      {
+        "id": "",
+        "description": ""
+      }
+    ]
+  }
+}

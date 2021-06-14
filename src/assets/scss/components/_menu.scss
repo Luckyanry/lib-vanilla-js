@@ -1,0 +1,22 @@
+.menu {
+  display: none;
+
+  @include mq(mobile) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+
+  @include mq(desktop) {
+    margin-right: 100px;
+  }
+}
+
+.menu-link {
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--secondary-accent-cl);
+}
