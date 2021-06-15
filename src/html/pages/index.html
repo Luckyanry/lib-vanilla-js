@@ -1,9 +1,10 @@
 {% extends "layout.html" %} {% block content %}
-<!-- {% include 'header.html' %} -->
+{% include 'layouts/header.html' %}
 
 <main>
   {% include 'components/form-validator.html' %}
+  {% include 'components/movie-seat-booking.html' %}
 </main>
 
-{% include 'footer.html' %}
+{% include 'layouts/footer.html' %}
 {% endblock %}
